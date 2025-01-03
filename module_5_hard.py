@@ -75,7 +75,7 @@ class UrTube:
 
         for i in range(video.duration):
             print(i+1, end =' ')
-            video.time_now +=1
+            video.time_now +=0
             sleep(1)
 
         video.time_now = 0
